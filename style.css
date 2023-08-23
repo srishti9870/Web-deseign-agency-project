@@ -1,0 +1,89 @@
+.picture{
+    flex:1;
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 75px;
+    font-family:"poppins",sans-serif;
+    padding-left: 50px;
+
+}
+.Creative{
+    color: navy;
+}
+body{
+    background-color: antiquewhite;
+    flex-direction: column;
+   
+
+}
+.first-card{
+    
+    float: left;
+}
+
+.second-card{
+    
+    float: right;
+    margin-left: 700px;
+    margin-top: -300px;
+    display: inline;
+}
+.beauty-image{
+    height: 200px;
+    padding-left: 50px;
+    float: left;
+    object-fit: cover;
+    
+}
+.p-1{
+    font-size: 15px;
+    float: left;
+    font-family:"poppins",sans-serif; 
+    text-align: justify;
+    width: 15%;
+    margin-left: 50px;
+
+
+}
+.head-2{
+   padding-left: 400px;
+   font-family:"poppins",sans-serif;
+
+    
+}
+
+
+
+
+.const-image{
+    height: 200px;
+    float:left;
+    padding-left: 50px;
+}
+.p-2{
+    font-size: 15px;
+    float:left;
+    font-family:"poppins",sans-serif; 
+    text-align: justify;
+    width: 30%;
+    margin-left: 50px;
+
+}
+.head-3{
+     padding-left:400px;
+     font-family:"poppins",sans-serif;
+   
+    
+
+
+}
+
+
+@media (max-width: 680px) {
+    .logo{
+      width: 100px;
+    }
+}
